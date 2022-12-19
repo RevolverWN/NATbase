@@ -4,11 +4,11 @@ I refer to fairseq that is a sequence modeling toolkit developped by facebook.
 
 
 # Preprocess
-use preprocess.py to generate vocabulary(dictionary) files and binary token index files from language pair corpus.
+Use preprocess.py to generate vocabulary(dictionary) files and binary token index files from language pair corpus.
 
 
 # Train
-use train.py with appropriate command line arguments to train your model.
+Use train.py with appropriate command line arguments to train your model.
 
 eg: python train.py ./data-bin/distilled_data/iwslt14de-en
 ./check_points/distilled_data/iwslt14de-en_tgt_emb_baseline
@@ -64,4 +64,4 @@ BLEU
 
 
 # Inference 
-use generate.py to generate results with trained model from test dataset.
+Use generate.py to generate results with trained model from test dataset.
