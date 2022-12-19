@@ -64,4 +64,4 @@ BLEU
 
 
 # Inference 
-use generate.py to generate results with trained model from test dataset
+use generate.py to generate results with trained model from test dataset.
